@@ -1,0 +1,703 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+/* login page css */
+
+.login-page{
+    background-image: url(images/login-background\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: ; */
+    background-attachment: fixed;
+    border: 1px hidden black;
+    box-shadow: 0px 0px 10px 0px;
+    padding: 20px 100px; 
+    border-radius: 20px;
+    height: 400px;
+    width: 580px;
+    margin: 120px 380px;
+    backdrop-filter: blur(8px) ;
+}
+    
+form input{
+    margin-left: 00px;
+    height: 40px;
+    width: 380px;
+    padding-left: 15px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+ input:focus{
+    outline: none;
+}
+
+.term-condition a:hover{
+    text-decoration: none;
+}
+
+.btn{
+    width: 120px;
+    margin-left: 200px;
+}
+
+
+
+
+/* Main page css */
+
+
+
+
+
+
+.nav-1{
+    /* background-color: #F9F6EE; */
+    background-color: #F1F1F1;
+}
+
+
+.nav-content{
+    display: flex;
+}
+
+
+
+.nav-content ul{
+    display: flex;
+    margin-left: 200px;
+    list-style-type: none;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.nav-content ul a{
+    padding-left: 33px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.nav-content ul a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;     
+    text-decoration-thickness: 2px;
+}
+
+.search-input{
+    margin-left: 120px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.input-box{
+    border-radius: 15px;
+    border-style: hidden;
+    background-color: #F1F1F1;
+    outline: none;
+    height: 35px;
+    width: 180px;
+    padding-left: 50px;
+}
+
+.input-box::placeholder{
+    font-size: 18px;
+}
+
+.input-box:hover{
+    background-color: lightgrey;
+}
+
+.search-icon{
+    position: absolute;
+    right: 150px;
+    top: 9px;
+    font-size: 18px;
+    pointer-events: none; /* Prevent interaction with the icon */
+}
+
+.bag-fav-icon{
+    margin-top: 28px;
+}
+
+.bag-fav-icon i{
+    padding-left: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.info-scroll{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 1px;
+    box-shadow: 0px 1px 0px 0px lightgray;
+}
+
+.info-scroll .join-link a{
+    color: black;
+}
+
+.advertise{
+    margin-left: 50px;
+}
+
+.ad-btn{
+    margin-right: 240px;
+}
+
+.advertise-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.details{
+    margin-top: 360px;
+}
+
+.shop-btn{
+    margin-left: 24px;
+}
+
+.featured p{
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.featured-info a{
+    text-decoration: none;
+}
+
+.Spotlight-title{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.spotlight-img-link{
+    overflow: auto;
+    gap: 20px;
+    padding: 25px;
+    margin-left: 10px;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.spotlight-img-link::-webkit-scrollbar {
+    height: 1px; 
+}
+
+.trending h3{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+
+
+
+.shop-link-btn{
+    margin-left: 40px;
+    margin-top: 250px;
+}
+
+.shop-by-sport-box{
+    margin-top: 50px;
+}
+
+
+.shop-by-sport{
+    display: flex;
+    overflow-x: auto;
+    gap: 100px;
+    padding: 25px; 
+    padding-left: 50px;
+    scroll-behavior: smooth;
+    white-space: nowrap; 
+    border: 2px hidden #ccc;  
+}
+
+
+.shop-by-sport::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.member-benefit{
+    margin-top: 80px;
+}
+
+.member-benefit h3{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.member-benefit-items{
+    display: flex;
+    overflow-x: auto;
+    gap: 410px;
+    padding: 25px; 
+    padding-left: 50px;
+    scroll-behavior: smooth;
+    white-space: nowrap; 
+    border: 2px hidden #ccc; 
+}
+
+.member-benefit-items::-webkit-scrollbar {
+    height: 8px; 
+}
+
+
+.member-card-details{
+    margin-top: 320px;
+}
+
+
+.member-card-details a{
+    text-decoration: none;
+}
+
+
+.items-link .items-link-details p:hover{
+    color: black;
+}
+ 
+
+.main-link .main-link-details p:hover{
+    color: black;
+}
+
+
+.hr-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    width: 90%;
+}
+
+
+.terms-conditions{
+    gap: 60px;
+    margin-left: 190px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.terms-conditions h6:hover{
+    color: black;
+}
+
+
+
+
+
+
+/* Join us css */
+
+
+
+
+
+.nike-membership h3{
+    margin-left: 50px;
+}
+
+.nike-membership a{
+    margin-left: 340px;
+}
+
+.advertise-video .video-container{
+    position: relative;
+}
+
+.advertise-video .video-container video{
+    margin-left: 30px;
+   
+}
+
+.advertise-video .overlay-content{
+    position: absolute;
+    top: 520px;
+    left: 340px;
+}
+
+.advertise-video .overlay-content p{
+    font-weight:500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.members-also h3{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.members-also-container{
+    margin-top: 70px;
+}
+
+.members-also-items-info{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.membership-line{
+    margin: 80px 0px 70px 0px;
+
+}
+
+
+/* .connect-membership-info .connect-membership-image{
+    position: relative;
+}
+
+.connect-membership-info .connect-membership-overlay{
+    position: absolute;
+    top: 390%;
+    left: 150px;
+}
+
+.connect-membership-overlay{
+    text-align: center;
+} */
+
+.membership-logo img{
+    height: 260px;
+}
+
+
+
+
+
+
+
+
+/* help page */
+
+.get-help h2{
+    text-align: center;
+    
+}
+
+.search-form input{
+    width: 450px;
+    height: 55px;
+    margin-left: 330px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quick-assist{
+    padding: 60px 100px;
+}
+
+.help-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-line hr{
+    width: 300%;
+}
+
+.help-terms h6:hover{
+    color: black;
+}
+
+
+
+
+
+/* Responsive code */
+
+
+
+
+/* index page */
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .nav-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-content ul {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .search-input {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    .bag-fav-icon {
+        margin-top: 10px;
+    }
+
+    .advertise video {
+        width: 100%;
+        height: auto;
+    }
+
+    .featured-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-info .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .spotlight-img-link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shop-by-sport {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member-benefit-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items-link, .main-link {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .terms-conditions {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-content ul {
+        margin-left: 50px;
+    }
+
+    .search-input {
+        margin-left: 50px;
+    }
+
+    .featured-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .featured-info .card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .spotlight-img-link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shop-by-sport {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .member-benefit-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .items-link, .main-link {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+
+/* join us page */
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .nike-membership {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .advertise-video video {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay-content {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .member-benefit-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .members-also-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nike-membership {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .advertise-video video {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay-content {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .member-benefit-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .members-also-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+/* help page  */
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .get-help h2 {
+        font-size: 24px;
+    }
+
+    .search-form input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .quick-assist {
+        padding: 20px;
+    }
+
+    .quick-assist .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-us .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .help-terms {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .quick-assist .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-us .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+/* login page */
+
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .login-page {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .login-page header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .login-page form input {
+        width: 100%;
+    }
+
+    .login-page .btn {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .login-page {
+        width: 70%;
+        margin: 50px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
