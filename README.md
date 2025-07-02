@@ -1,3 +1,3 @@
 # Nike
 
-Live Server - https://codevickyx.github.io/Nike/
+Live Server - https://viki-script.github.io/Nike-Clone-Website/
